@@ -17,7 +17,7 @@ const Pic = () => {
           width: "110%",
           height: "110%",
           background:
-            "radial-gradient(circle, rgba(197, 163, 88, 0.2) 0%, transparent 70%)",
+            "radial-gradient(circle, rgba(239, 183, 61, 0.2) 0%, transparent 10%)",
           filter: "blur(30px)",
           zIndex: -1,
         }}
@@ -46,7 +46,7 @@ const Pic = () => {
             height: "100%",
             objectFit: "cover",
             borderRadius: "20px",
-            filter: "grayscale(100%) brightness(0.8)", // High-end minimalist look
+            filter: "brightness(0.7)", // High-end minimalist look
           }}
         />
       </motion.div>
