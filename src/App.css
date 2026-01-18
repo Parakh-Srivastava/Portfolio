@@ -1,0 +1,70 @@
+/* Custom Dark Theme */
+body {
+  background-color: #0a0a0a; /* Deep charcoal */
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+}
+
+.navbar-custom {
+  background-color: rgba(10, 10, 10, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.custom-card {
+  background: #111111;
+  border: 1px solid #222222 !important;
+  border-radius: 20px;
+  transition: border-color 0.3s ease;
+}
+
+.text-secondary-custom {
+  color: #a0a0a0;
+}
+
+/* Custom Glow for Badges */
+.badge-outline {
+  background: transparent;
+  border: 1px solid #0dcaf0;
+  color: #0dcaf0;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* Add this to your App.css */
+.font-serif {
+  font-family: "Playfair Display", serif; /* Or 'Georgia', serif */
+}
+
+.text-gold {
+  color: #c5a358; /* Matching the gold in your image */
+}
+
+.btn-gold {
+  background-color: #c5a358;
+  color: #000;
+  border: none;
+  font-weight: 600;
+  padding: 12px 30px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.btn-gold:hover {
+  background-color: #e2bc6a;
+  transform: translateY(-2px);
+}
+
+.btn-outline-gold {
+  background: transparent;
+  border: 1px solid #c5a358;
+  color: #c5a358;
+  padding: 12px 30px;
+  border-radius: 8px;
+}
+
+html {
+  scroll-behavior: smooth !important;
+}
