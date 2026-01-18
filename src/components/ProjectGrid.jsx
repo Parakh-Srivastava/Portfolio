@@ -8,6 +8,7 @@ const myProjects = [
       "Built a first-aid assistant that actually works. React frontend talks to Flask backend, integrated Gemini API for smart medical guidance.",
     tech: ["React", "Flask", "Gemini API"],
     link: ["https://medlink-ai-lrf1.onrender.com"],
+    target: "_blank",
   },
   {
     title: "LeetCode Grind",
@@ -15,6 +16,15 @@ const myProjects = [
       "365 days of grinding DSA problems in C++. It's brutal, but necessary. Every problem solved makes me a better engineer.",
     tech: ["C++", "DSA", "MySQL"],
     link: ["https://leetcode.com/u/parakh-srivastava/"],
+    target: "_blank",
+  },
+  {
+    title: "Personal Portfolio",
+    description:
+      "A react based SPA that helped me learn the core about UI/UX and helped be familiar towards frontEnd.",
+    tech: ["HTML", "CSS", "Bootstrap", "JS", "React"],
+    link: ["#top"],
+    target: "",
   },
 ];
 
@@ -27,7 +37,7 @@ const ProjectGrid = () => {
           <motion.a
             key={index}
             href={project.link} // Ensure your data array has a 'link' property
-            target="_blank"
+            target={project.target}
             rel="noopener noreferrer"
             className="col-md-6 col-lg-4 text-decoration-none" // Bootstrap class to remove blue link color
             whileHover={{ y: -10 }}

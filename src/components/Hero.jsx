@@ -4,7 +4,10 @@ import Pic from "./Pic";
 
 const Hero = () => {
   return (
-    <section className="container-fluid vh-100 d-flex align-items-center bg-black px-md-5">
+    <section
+      id="top"
+      className="container-fluid vh-100 d-flex align-items-center bg-black px-md-5"
+    >
       <div className="row w-100 align-items-center">
         <motion.div
           initial={{ opacity: 0, x: -30 }}
