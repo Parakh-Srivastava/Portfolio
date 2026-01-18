@@ -25,9 +25,7 @@ const AboutMe = () => {
           <div className="text-secondary-custom fs-5">
             <p className="mb-4">
               I am a developer who thrives at the intersection of <span className="text-white fw-bold">engineering precision</span> and <span className="text-white fw-bold">modern web architecture</span>. 
-              My journey isn't just about syntax; it's about solving complex problems—whether that's simulating the 
-              dynamic conductivity of a <span className="text-info">JFET channel</span> or scaling the 
-              chemical synthesis of <span className="text-info">silver nanoparticles</span>.
+              My journey isn't just about syntax; it's about solving complex problems.
             </p>
 
             <p className="mb-4">
