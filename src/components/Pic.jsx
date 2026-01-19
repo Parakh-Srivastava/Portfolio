@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import MyImage from "../../public/me.jpeg";
+import MyImage from "./resources/me.jpeg";
 
 const Pic = () => {
   return (
